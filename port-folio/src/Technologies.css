@@ -1,0 +1,150 @@
+.technologies-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+}
+.title {
+  width: 100%;
+  height: 50%;
+}
+.title h1 {
+  font-size: 40px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+hr {
+  height: 3px;
+  width: 40%;
+  background: black;
+  display: block;
+  margin-left: 0;
+}
+.skills-section {
+  display: flex;
+  height: 50%;
+}
+.skills-left,
+.skills-right {
+  width: 50%;
+  text-align: left;
+}
+
+.skills-section h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  text-decoration: underline;
+}
+.skills-left p,
+.skills-right p {
+  font-family: cursive;
+}
+.bg-div {
+  width: 85%;
+  background: rgb(180, 176, 171);
+  /* background: #1db954; */
+  height: 30px;
+}
+.progress-bar {
+  width: 85%;
+  background: black;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .technologies-container {
+    height: 50vh;
+    padding: 80px;
+  }
+
+  .title h1 {
+    font-size: 35px;
+  }
+  hr {
+    height: 2px;
+  }
+
+  h5 {
+    font-size: large;
+  }
+
+  .bg-div {
+    height: 27px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .technologies-container {
+    height: 50vh;
+    padding: 70px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+  hr {
+    height: 1px;
+  }
+
+  h5 {
+    font-size: medium;
+  }
+  .skills-left p,
+  .skills-right p {
+    font-size: 14px;
+  }
+
+  .bg-div {
+    height: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .technologies-container {
+    width: 100vw;
+    height: 80vh;
+    padding: 50px 20px;
+  }
+  .title {
+    width: 100%;
+    height: 50%;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  hr {
+    height: 1px;
+    width: 70%;
+  }
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .skills-left,
+  .skills-right {
+    width: 100%;
+    text-align: left;
+  }
+
+  h5 {
+    font-size: larger;
+  }
+  .skills-right h5 {
+    display: none;
+  }
+  .skills-left p,
+  .skills-right p {
+    font-size: large;
+  }
+  .bg-div {
+    width: 85%;
+    background: rgb(180, 176, 171);
+    height: 20px;
+  }
+}

@@ -1,0 +1,162 @@
+.contact-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 100px;
+  background: #000;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: start;
+  gap: 10%;
+}
+
+.contact-img {
+  height: 100%;
+  width: 30%;
+}
+
+.contact-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.contact-text {
+  height: 100%;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.contact-text h1,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.icons {
+  margin-top: 15px;
+}
+
+.icons p {
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.icons ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 0;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #1db954;
+  transform: scale(1.2);
+}
+
+/* responsive styling********** */
+
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    height: 50vh;
+  }
+
+  .contact-img {
+    height: 100%;
+    width: 40%;
+  }
+
+  .contact-text {
+    height: 100%;
+  }
+
+  .icons {
+    margin-top: 15px;
+  }
+  .icons p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .contact-container {
+    height: 50vh;
+    padding: 80px;
+
+    gap: 10%;
+  }
+
+  .contact-img {
+    height: 100%;
+    width: 40%;
+  }
+
+  .contact-text h1 {
+    font-size: 22px;
+  }
+  .icons {
+    margin-top: 10px;
+  }
+
+  .icons p {
+    font-size: 0.7rem;
+  }
+
+  .icons ul {
+    gap: 10px;
+  }
+
+  .social-icon {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .contact-img {
+    height: 60%;
+    width: 100%;
+  }
+
+  .contact-text {
+    height: 40%;
+    justify-content: center;
+  }
+  .contact-text h1 {
+    font-size: 29px;
+  }
+  .contact-text h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .icons {
+    margin-top: 10px;
+  }
+
+  .icons p {
+    font-size: 0.9rem;
+  }
+
+  .icons ul {
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 2rem;
+  }
+}
