@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
       <div className="contact-text">
         <h1>
-          <span>🚶‍➡️</span>Reach Out
+         Reach Out
         </h1>
         <div>
           <h3>Chanchal Kumar</h3>
