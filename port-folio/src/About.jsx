@@ -11,7 +11,6 @@ const About = () => {
     <section className="about-container">
       <div className="about-content">
         <h1>
-          <span>ℹ️</span>
           About Me
         </h1>
         <p>
