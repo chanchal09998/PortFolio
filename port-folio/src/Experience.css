@@ -17,6 +17,8 @@
 }
 .exp-text h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin-top: 0;
 }
 .exp-content {
   height: 100%;
@@ -49,7 +51,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .exp-work p {
-  font-family: cursive;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
@@ -59,7 +61,7 @@
     padding: 60px;
   }
   .exp-text h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .exp-date {
@@ -81,7 +83,7 @@
     padding: 40px;
   }
   .exp-text h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .exp-date {
@@ -113,6 +115,9 @@
     height: fit-content;
     display: flex;
     align-self: start;
+  }
+  .exp-text h1 {
+    font-size: 25px;
   }
   .exp-content {
     height: 100%;
