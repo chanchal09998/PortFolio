@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .review-container {
     height: fit-content;
     width: 100vw;

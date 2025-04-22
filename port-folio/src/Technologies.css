@@ -103,7 +103,7 @@ hr {
     height: 16px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .technologies-container {
     width: 100vw;
     height: 80vh;
