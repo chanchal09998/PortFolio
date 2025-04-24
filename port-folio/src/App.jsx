@@ -12,7 +12,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <div className="app-container">
-      <SplashCursor />
+      {/* <SplashCursor /> */}
       <Hero />
       <About />
       <Experience />
