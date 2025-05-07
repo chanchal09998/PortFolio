@@ -79,13 +79,13 @@ const Projects = () => {
             (Social App)
           </h3>
           <p>
-            A feature-rich social media platform built using the MERN stack. It
-            allows users to: <br />
+            A feature-rich social media platform built using the MERN stack.{" "}
+            <br />
             Create and manage personal profiles <br />
             Post updates, images, and interact with others' posts <br />
             Follow/unfollow users <br />
             Real-time notifications and messaging <br />
-            Responsive UI with dark mode support <br />
+            Responsive UI <br />
           </p>
           <div className="btns">
             <a href="https://look-up-ten.vercel.app/" target="_blank">
