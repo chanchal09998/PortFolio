@@ -10,9 +10,7 @@ const About = () => {
   return (
     <section className="about-container">
       <div className="about-content">
-        <h1>
-          About Me
-        </h1>
+        <h1>About Me</h1>
         <p>
           <a href={resume} download={resume}>
             <button className="my-resume">
